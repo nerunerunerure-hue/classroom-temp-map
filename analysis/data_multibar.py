@@ -1,5 +1,5 @@
 """使いたい場合はpython, pandas, matplotlibのインストールが必要です。
-1, analysisフォルダのREADMEに従ってonmura.dbを作成します。CSV名は任意です。例: python log_to_sqlite.py sample/LOG.CSV。analysisフォルダで実行してください。
+1, analysisフォルダのREADMEに従ってonmura.dbを作成します。この際csvは"LOG.CSV"という名前じゃないと作成してくれません。
 2, df = pd.read_sqlから始まる4行は各ノードを示しており、それぞれ時間範囲(recv_time)を合わせる必要があります。
 3, 実行を押すとグラフが表示されます。
 """
