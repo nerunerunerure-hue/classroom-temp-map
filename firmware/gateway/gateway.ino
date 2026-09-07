@@ -33,6 +33,7 @@
 #define HISTORY_SIZE 360 // Size of ring buffers which have temperature and humidity(Three hours' data)
 #define Y_MAX 30  // Maximum value of the y-axis(y軸の最大値)
 #define Y_MIN 20  // Minimum value of the y-axis(y軸の最小値)
+
 static char queueBuf[QUEUE_SIZE][PKT_MAX];
 static volatile int qHead = 0;  // コールバック(書く側)が進める
 static volatile int qTail = 0;  // loop(読む側)が進める
